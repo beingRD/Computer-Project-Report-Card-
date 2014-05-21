@@ -7,6 +7,7 @@
 //
 
 
+
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -118,7 +119,7 @@ void append()
     cout<<"\t\t\t*-----------*"<<"\n";
     cout<<"\t\t\t| APPENDING |"<<"\n";
     cout<<"\t\t\t*-----------*"<<"\n"<<"\n";
-    cout<<"\tENTER THE NUMBER OF RECORDS TO BE APPENDED :";
+    cout<<"\tENTER THE NUMBER OF RECORDS TO BE APPENDED :>";
     cin>>k;
     for(i=0;i<k;i++)
     {
@@ -157,7 +158,7 @@ void search()
     cout<<"\t\t\t*-----------*"<<"\n"<<"\n";
     
 step:
-    cout<<"\n\tENTER THE NAME TO BE SEARCHED :";
+    cout<<"\n\tENTER THE NAME TO BE SEARCHED :>";
     gets(name);
     cout<<"\n";
     cout<<"ROLL     NAME         MARKS         PERCENTAGE    GRADE"<<"\n";
@@ -270,7 +271,7 @@ void reads()
     cleardevice();
     cout<<"\n";
     cout<<"\t**------------------------------------------------**"<<"\n";
-    cout<<"\t||   THE REPORT CARD OF STUDENTS OF CLASS XII-B2  ||"<<"\n";
+    cout<<"\t||   THE REPORT CARD OF STUDENTS OF CLASS XII-E  ||"<<"\n";
     cout<<"\t**------------------------------------------------**"<<"\n"<<"\n";
     cout<<"ROLL    NAME      MARKS             PERCENTAGE       GRADE"<<"\n";
     cout<<"--------------------------------------------------------"<<"\n";
@@ -297,7 +298,7 @@ void terms()
     char chc;
     rectangle(1,1,getmaxx(),getmaxy());
     settextstyle(GOTHIC_FONT,VERT_DIR,5);
-    settextjustify(LEFT_TEXT,CENTER_TEXT);      //Was actually- settextjustify(LEFT_TEXT,CENTER_TEXT,5);
+    settextjustify(LEFT_TEXT,CENTER_TEXT);      //Was actually- settextjustify(LEFT_TEXT,CENTER_TEXT,5); ;)
     outtextxy(50,240,"REPORT CARD");
     settextstyle(SANS_SERIF_FONT,HORIZ_DIR,5);
     outtextxy(240,50,"SELECT A TERM");
