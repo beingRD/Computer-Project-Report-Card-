@@ -343,21 +343,21 @@ void credits()
     cleardevice();
     setbkcolor(4);
     gotoxy(33,6);
-    cout<<"-:Created By:-";
+    cout<<"-:Author :>";
     for(int i=70;i>28;i--)
     {
         gotoxy(i,8);
-        cout<<"Navi Arora";
+        cout<<"Rishabh Dev";
         delay(70);
     }
     for(i=70;i>28;i--)
     {
         gotoxy(i,10);
-        cout<<"www.NaviArora.com";
+        cout<<"https://github.com/beingRD/";
         delay(70);
     }
     gotoxy(28,25);
-    cout<<"Press any key to exit...";
+    cout<<"Press any key to exit";
     getch();
     exit(0);
 }
