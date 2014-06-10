@@ -6,8 +6,6 @@
 //  Copyright © 2014 Rishabh Dev. All rights reserved.
 //
 
-
-
 #include<iostream>
 #include<fstream>
 #include<stdlib.h>
@@ -364,7 +362,7 @@ void credits()
     exit(0);
 }
 
-/***********************************menu1************************************/
+//menu1
 
 void menu1()
 {
@@ -457,7 +455,7 @@ back:
     }
 }
 
-/***************************************menu2********************************************/
+//menu2
 void menu2()
 {
     cleardevice();
@@ -549,7 +547,7 @@ back:
     }
 }
 
-/*********************************menu3**************************************/
+//menu3
 void menu3()
 {
     cleardevice();
@@ -640,7 +638,7 @@ back:
     }
 }
 
-/**********************************main**************************************/
+//main
 void main()
 {
     int gdriver = DETECT, gmode, errorcode;
@@ -661,7 +659,7 @@ void main()
     delay(2000);
     outtextxy(200,170,"PROJECT ON");
     delay(2000);
-    outtextxy(95,240,"REPORT CARD MAKING");
+    outtextxy(95,240,"CLASS REPORT CARD ");
     delay(2000);
     for(int i=0;i<360;i++)
     {
