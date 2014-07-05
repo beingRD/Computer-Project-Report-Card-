@@ -2,7 +2,7 @@
 //  main.cpp
 //  Computer- Project Report Card
 //
-//  Created by Deb Robinson on 19/12/14.
+//  Created by Rishabh Dev on 19/12/14.
 //  Copyright © 2014 Rishabh Dev. All rights reserved.
 //
 
