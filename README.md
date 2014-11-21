@@ -74,19 +74,20 @@ setw
 Declaration: setw(int);
 The setw() function is used to set the field width of the output data.
 
-Function Used
+###Function Used
 
-INTRO( ): to give introduction note to the user.
-CALCULATE( ) : to calculate the percentage and grade of the student.
-GETDATA( ) : to take information from user.
-SHOWDATA( ): to display the information given by user.
-SHOWTABULAR( ): to display information in tabular form.
-WRITE_STUDENT( ): to write record in file.
-DISPLAY_ALL( ): to display all records from file.
-DISPLAY_SP(): to read specific record on file on the basis of roll number.
-MODIFY_STUDENT( ): to modify a record.
-DELETE_STUDENT( ): to delete a record from file.
-CLASS_RESULT( ): to display all students grade report.
-RESULT( ): to display result menu.
-ENTRY_MENU( ): to display the menu of the features of the program.
+- INTRO( ): to give introduction note to the user.
+- CALCULATE( ) : to calculate the percentage and grade of the student.
+- GETDATA( ) : to take information from user.
+- SHOWDATA( ): to display the information given by user.
+- SHOWTABULAR( ): to display information in tabular form.
+- WRITE_STUDENT( ): to write record in file.
+- DISPLAY_ALL( ): to display all records from file.
+- DISPLAY_SP(): to read specific record on file on the basis of roll number.
+- MODIFY_STUDENT( ): to modify a record.
+- DELETE_STUDENT( ): to delete a record from file.
+- CLASS_RESULT( ): to display all students grade report.
+- RESULT( ): to display result menu.
+- ENTRY_MENU( ): to display the menu of the features of the program.
+
 
